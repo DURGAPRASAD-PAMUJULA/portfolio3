@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    margin-left:5rem;
+    width:1200px;
+    box-shadow: 0px 50px 100px 0px rgba(32, 34, 34, 0.932);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    width:100%;
+    line-height: 5rem;
+    border-bottom: 2px solid black;
+}
+.left{
+    color: rgb(5, 5, 5);
+    padding:8px 32px;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+li a{
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.left:hover{
+    color: rgb(5, 5, 5);
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.79);
+    padding:8px 32px;
+    cursor: pointer;
+}
+ul li a:hover{
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.023);
+    border-radius: 10px;
+    box-shadow: 0px 10px 40px 0px black;
+    padding:8px 24px;
+    color: rgb(11, 11, 11);
+    cursor: pointer;
+}
+
+/* ---------------------------navbar is completed-------------------- */
+.container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+}
+.child1{
+    padding:30px 40px;
+}
+.child1 h2{
+    color: rgba(46, 4, 253, 0.906);
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.child1 h4{
+    color: rgb(255, 64, 0);
+    margin-top: 17px;
+}
+.child1 p{
+    margin-top:20px;
+}
+.icons{
+    width:350px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 20px 10px 30px 5px rgba(0, 0, 0, 0.598);
+}
+.icon{
+    font-size: 35px;
+    background-color: rgb(246, 244, 248);
+    padding:15px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.fa-instagram{
+    color: rgba(255, 30, 0, 0.934);
+}
+.fa-twitter{
+    color: rgb(13, 0, 255);
+}
+.fa-linkedin{
+    color: blue;
+}
+.fa-facebook{
+    color: rgb(0, 64, 255);
+}
+.child2 img{
+    height: 280px;
+    width: 280px;
+    margin:0px 60px;
+     border-radius:50%;
+     object-fit: cover;
+}
+.child1 h2:hover{
+    text-shadow: 5px 10px 10px rgba(230, 50, 14, 0.884);
+    cursor: pointer;
+}
+.icon:hover{
+    font-size: 35px;
+    background-color:rgba(234, 231, 231, 0.039);
+    padding:15px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.676);
+}
+/* ---------------profile section completed---------- */
+.projects{
+    text-align: center;
+    text-shadow: 5px 10px 10px rgba(0, 0, 0, 0.836);
+    background-color: white;
+}
+.container2{
+    width:100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+
+}
+.clone1{
+    width:350px;
+    height: 480px;
+    margin-top: 20px;
+    padding:20px 15px;
+    border-radius: 15px;
+}
+.image{
+    width:100%;
+    border-radius: 40px 40px 0px 0px;
+}
+.clone1 h3{
+    margin-top:20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.clone1 p{
+    margin-top:20px;
+}
+.btn{
+    width:100%;
+    background-color: blue;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 800;
+    border:none;
+    padding:8px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgba(8, 8, 8, 0.897);
+    color:white;
+    animation-name:disco;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes disco{
+    10%{
+        background-color: blue;
+    }
+    30%{
+        background-color: brown;
+    }
+    50%{
+        background-color: rgb(249, 7, 104);
+    }
+    70%{
+        background-color: rgb(81, 255, 0);
+    }
+    100%{
+        background-color: tomato;
+    }
+}
+/* ---------------------nxt page------- */
+.services{
+    width:400px;
+    height: 400px;
+    padding:10px 20px;
+    border: 2px solid black;
+    margin:0px 0px 0px 370px;
+
+}
+.services h1{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.632);
+}
+.services h4{
+    margin-top:10px;
+}
+.serve{
+    margin-top: 50px;
+    
+}
